@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  padding: 5%;
+  gap: 5%;
+}
+
+.ListContainer {
+  width: 70%;
+  h1 {
+    text-align: center;
+  }
+}
+
+.MovieList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+}
+
+.FavoriteList {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Everything Everywhere All at Once",
+    "duration": 139,
+    "genre": ["Action", "Adventure", "Comedy"],
+    "rating": "R",
+    "date": 2022,
+    "image": "images/florian-olivo-Pvs1hfZrxwA-unsplash.jpg"
+  },
+  {
+    "name": "Barbie",
+    "duration": 114,
+    "genre": ["Fantasy", "Adventure", "Comedy"],
+    "rating": "PG-13",
+    "date": 2023,
+    "image": "images/husen-siraaj-55OH6wnJqXo-unsplash.jpg"
+  },
+  {
+    "name": "Inception",
+    "duration": 148,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": "PG-13",
+    "date": 2010,
+    "image": "images/christophe-hautier-902vnYeoWS4-unsplash.jpg"
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "duration": 115,
+    "genre": ["Drama"],
+    "rating": "R",
+    "date": 1994,
+    "image": "images/egor-yakushkin-AtQoiUN_w1s-unsplash.jpg"
+  },
+  {
+    "name": "Get Out",
+    "duration": 104,
+    "genre": ["Horror", "Mystery", "Thriller"],
+    "rating": "R",
+    "date": 2017,
+    "image": "images/andy-li-laxcXxlLQiA-unsplash.jpg"
+  },
+  {
+    "name": "Spirited Away",
+    "duration": 125,
+    "genre": ["Animation", "Adventure", "Family"],
+    "rating": "PG",
+    "date": 2001,
+    "image": "images/aleksandra-sapozhnikova-lWuI2fcXCjY-unsplash.jpg"
+  },
+  {
+    "name": "La La Land",
+    "duration": 128,
+    "genre": ["Comedy", "Drama", "Music", "Romance"],
+    "rating": "PG-13",
+    "date": 2016,
+    "image": "images/zoi-palla-CivngkM5pmQ-unsplash.jpg"
+  },
+  {
+    "name": "Set It Up",
+    "duration": 105,
+    "genre": ["Comedy", "Romance"],
+    "rating": "TV-14",
+    "date": 2018,
+    "image": "images/jakob-owens-vg1AuNXzICY-unsplash.jpg"
+  },
+  {
+    "name": "Knives Out",
+    "duration": 130,
+    "genre": ["Comedy", "Crime", "Drama"],
+    "rating": "PG-13",
+    "date": 2019,
+    "image": "images/elena-popova-xdXxY5C9PUo-unsplash.jpg"
+  },
+  {
+    "name": "Your Name.",
+    "duration": 106,
+    "genre": ["Animation", "Fantasy", "Romance"],
+    "rating": "PG",
+    "date": 2016,
+    "image": "images/juskteez-vu-TIrXot28Znc-unsplash.jpg"
+  },
+  {
+    "name": "Now You See Me",
+    "duration": 115,
+    "genre": ["Crime", "Mystery", "Thriller"],
+    "rating": "PG-13",
+    "date": 2013,
+    "image": "images/amanda-jones-P787-xixGio-unsplash.jpg"
+  },
+  {
+    "name": "Black Panther",
+    "duration": 134,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": "PG-13",
+    "date": 2018,
+    "image": "images/nick-nice-DqN0niGVZ1w-unsplash.jpg"
+  }
+]

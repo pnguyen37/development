@@ -1,0 +1,49 @@
+.MovieCard {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  height: 100%;
+}
+
+.cardImage {
+  height: 300px;
+  min-height: 300px;
+  object-fit: cover;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cardTitle {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: auto;
+}
+
+.cardDetail {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.favIcon {
+  color: #c8c8c8;
+  cursor: pointer;
+}
+
+.redIcon {
+  color: rgb(175, 12, 12);
+  cursor: pointer;
+}
+
+.genreTag {
+  border: 1px solid rgb(178, 178, 178);
+  border-radius: 15px;
+  padding: 3px 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
