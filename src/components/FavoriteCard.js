@@ -1,7 +1,6 @@
 import "./FavoriteCard.css";
 import Card from "@mui/material/Card";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import {useState, useEffect} from "react";
 
 export default function FavoriteCard(props) {
 

@@ -8,10 +8,13 @@ export default function MovieCard(props) {
   const [buttonColor, setButtonColor] = useState("default");
 
   useEffect(() => {
-    props.currFavorites.includes(props.name)
-      ? setButtonColor("favorited")
-      : setButtonColor("default");
-  }, [props.currFavorites]);
+    function changeButtonColor() {
+      props.currFavorites.includes(props.name)
+        ? setButtonColor("favorited")
+        : setButtonColor("default");
+    }
+		changeButtonColor(); 
+  }, [props.currFavorites, props.name]);
 
   return (
     <Card sx={{ color: "black" }} className="movieCard">

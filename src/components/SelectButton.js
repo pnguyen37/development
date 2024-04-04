@@ -25,7 +25,7 @@ export default function SelectButton(props) {
         ? setSelectedValue("")
         : setSelectedValue(props.menuItems[props.sorts]);
     }
-  }, [props.filters, props.sorts]);
+  }, [props.filters, props.sorts, props.label, props.menuItems]);
 
   return (
     <Box

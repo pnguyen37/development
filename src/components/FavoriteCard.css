@@ -40,8 +40,6 @@
   color: rgb(131, 9, 9);
 }
 
-.closeContainer {
-}
 
 @media screen and (max-width: 770px) {
   .favoriteCard {

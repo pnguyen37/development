@@ -97,8 +97,22 @@ function App() {
     setFilters(updatedFilters);
   };
 
+  // resets filter and sort
+  const resetFilterSort = () => {
+    setFilters({ Genre: null, Rating: null });
+    setSortType("none");
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      window.scrollY > 40 ? setIsVisible(true) : setIsVisible(false);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+  }, []);
+
   // applies filter and then sort based on state vars
-  const applyFilterAndSort = () => {
+  useEffect(() => {
     let filteredData = [...movieData];
     if (filters["Genre"] !== null) {
       filteredData = filteredData.filter((item) => {
@@ -122,24 +136,6 @@ function App() {
     } else {
       setData(filteredData);
     }
-  };
-
-  // resets filter and sort
-  const resetFilterSort = () => {
-    setFilters({ Genre: null, Rating: null });
-    setSortType("none");
-  };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      window.scrollY > 40 ? setIsVisible(true) : setIsVisible(false);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-  }, []);
-
-  useEffect(() => {
-    applyFilterAndSort();
   }, [filters, sortType]);
 
   return (
@@ -230,11 +226,11 @@ function App() {
             )}
           </div>
           {(filters["Genre"] || filters["Rating"]) && (
-            <caption>
+            <span>
               <span>Filters:</span> {filters["Genre"] ? filters["Genre"] : ""}
               {filters["Genre"] && filters["Rating"] ? ", " : ""}
               {filters["Rating"] ? filters["Rating"] : ""}
-            </caption>
+            </span>
           )}
           <div className="movieList">
             {data.map((item, index) => (
