@@ -1,25 +1,31 @@
-.MovieCard {
+.movieCard {
   display: flex;
   flex-direction: column;
-  padding: 5%;
-  height: 100%;
+  height: fit-content;
+  min-height: 100%;
+}
+
+.movieCard:hover {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #1769aa;
 }
 
 .cardImage {
   height: 300px;
   min-height: 300px;
   object-fit: cover;
+  width: 100%;
 }
 
 .cardText {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  padding: 5%;
 }
 
 .cardTitle {
   font-weight: bolder;
-  font-size: 20px;
   margin-bottom: auto;
 }
 
@@ -32,11 +38,24 @@
 .favIcon {
   color: #c8c8c8;
   cursor: pointer;
+  margin-left: auto;
+}
+
+.favIcon:hover {
+  color: #a2a2a2;
 }
 
 .redIcon {
   color: rgb(175, 12, 12);
   cursor: pointer;
+}
+
+.redIcon:hover {
+  color: rgb(131, 9, 9);
+}
+
+.iconContainer {
+  margin-left: auto;
 }
 
 .genreTag {
@@ -46,4 +65,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.genreTag:hover {
+  background-color: #dedede;
+  border: 1px solid #1769aa;
 }

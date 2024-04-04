@@ -5,7 +5,8 @@
     "genre": ["Action", "Adventure", "Comedy"],
     "rating": "R",
     "date": 2022,
-    "image": "images/florian-olivo-Pvs1hfZrxwA-unsplash.jpg"
+    "image": "images/florian-olivo-Pvs1hfZrxwA-unsplash.jpg",
+    "desc": "laundromat"
   },
   {
     "name": "Barbie",
@@ -13,7 +14,8 @@
     "genre": ["Fantasy", "Adventure", "Comedy"],
     "rating": "PG-13",
     "date": 2023,
-    "image": "images/husen-siraaj-55OH6wnJqXo-unsplash.jpg"
+    "image": "images/husen-siraaj-55OH6wnJqXo-unsplash.jpg",
+    "desc": "beach"
   },
   {
     "name": "Inception",
@@ -21,7 +23,8 @@
     "genre": ["Action", "Adventure", "Sci-Fi"],
     "rating": "PG-13",
     "date": 2010,
-    "image": "images/christophe-hautier-902vnYeoWS4-unsplash.jpg"
+    "image": "images/christophe-hautier-902vnYeoWS4-unsplash.jpg",
+    "desc": "spinning top"
   },
   {
     "name": "The Shawshank Redemption",
@@ -29,7 +32,8 @@
     "genre": ["Drama"],
     "rating": "R",
     "date": 1994,
-    "image": "images/egor-yakushkin-AtQoiUN_w1s-unsplash.jpg"
+    "image": "images/egor-yakushkin-AtQoiUN_w1s-unsplash.jpg",
+    "desc": "sky when it's thundering"
   },
   {
     "name": "Get Out",
@@ -37,7 +41,8 @@
     "genre": ["Horror", "Mystery", "Thriller"],
     "rating": "R",
     "date": 2017,
-    "image": "images/andy-li-laxcXxlLQiA-unsplash.jpg"
+    "image": "images/andy-li-laxcXxlLQiA-unsplash.jpg",
+    "desc": "car driving on empty road on a cloudy day"
   },
   {
     "name": "Spirited Away",
@@ -45,7 +50,8 @@
     "genre": ["Animation", "Adventure", "Family"],
     "rating": "PG",
     "date": 2001,
-    "image": "images/aleksandra-sapozhnikova-lWuI2fcXCjY-unsplash.jpg"
+    "image": "images/aleksandra-sapozhnikova-lWuI2fcXCjY-unsplash.jpg",
+    "desc": "pink flowers"
   },
   {
     "name": "La La Land",
@@ -53,7 +59,8 @@
     "genre": ["Comedy", "Drama", "Music", "Romance"],
     "rating": "PG-13",
     "date": 2016,
-    "image": "images/zoi-palla-CivngkM5pmQ-unsplash.jpg"
+    "image": "images/zoi-palla-CivngkM5pmQ-unsplash.jpg",
+    "desc": "hollywood sign"
   },
   {
     "name": "Set It Up",
@@ -61,7 +68,8 @@
     "genre": ["Comedy", "Romance"],
     "rating": "TV-14",
     "date": 2018,
-    "image": "images/jakob-owens-vg1AuNXzICY-unsplash.jpg"
+    "image": "images/jakob-owens-vg1AuNXzICY-unsplash.jpg",
+    "desc": "baseball stadium seats"
   },
   {
     "name": "Knives Out",
@@ -69,7 +77,8 @@
     "genre": ["Comedy", "Crime", "Drama"],
     "rating": "PG-13",
     "date": 2019,
-    "image": "images/elena-popova-xdXxY5C9PUo-unsplash.jpg"
+    "image": "images/elena-popova-xdXxY5C9PUo-unsplash.jpg",
+    "desc": "game of go"
   },
   {
     "name": "Your Name.",
@@ -77,7 +86,8 @@
     "genre": ["Animation", "Fantasy", "Romance"],
     "rating": "PG",
     "date": 2016,
-    "image": "images/juskteez-vu-TIrXot28Znc-unsplash.jpg"
+    "image": "images/juskteez-vu-TIrXot28Znc-unsplash.jpg",
+    "desc": "shooting star"
   },
   {
     "name": "Now You See Me",
@@ -85,7 +95,8 @@
     "genre": ["Crime", "Mystery", "Thriller"],
     "rating": "PG-13",
     "date": 2013,
-    "image": "images/amanda-jones-P787-xixGio-unsplash.jpg"
+    "image": "images/amanda-jones-P787-xixGio-unsplash.jpg",
+    "desc": "pile of cards"
   },
   {
     "name": "Black Panther",
@@ -93,6 +104,7 @@
     "genre": ["Action", "Adventure", "Sci-Fi"],
     "rating": "PG-13",
     "date": 2018,
-    "image": "images/nick-nice-DqN0niGVZ1w-unsplash.jpg"
+    "image": "images/nick-nice-DqN0niGVZ1w-unsplash.jpg",
+    "desc": "purple flowers"
   }
 ]
