@@ -1,7 +1,7 @@
 # Development - Movie Tracker
 ## Deployment
 
-Visit my movie tracker app here: <https://development-indol-seven.vercel.app/>
+Visit my movie tracker app here: <https://development-movie-tracker.vercel.app/>
 
 ## Available Scripts
 

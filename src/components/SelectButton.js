@@ -45,7 +45,7 @@ export default function SelectButton(props) {
           onChange={handleChange}
         >
           {Object.entries(props.menuItems).map(([criteria, label]) => (
-            <MenuItem value={criteria}>{label}</MenuItem>
+            <MenuItem value={criteria}>{label}</MenuItem> 
           ))}
         </Select>
       </FormControl>
