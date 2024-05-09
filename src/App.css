@@ -4,6 +4,12 @@
   src: local(""),
     url("../public/fonts/TruenoSemibold-Z9yl.otf") format("opentype");
 }
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  src: local(""),
+    url("../public/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
 h1 {
   font-family: "Trueno";
   margin-top: 0;
@@ -25,6 +31,7 @@ h4 {
 }
 p,
 span {
+  font-family: "Inter";
   font-size: 16px;
 }
 
